@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 8rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +31,7 @@ a {
 /**  Header Navigation **/
 
 header {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 header .jumbotron {
@@ -60,7 +60,7 @@ header .navbar-default {
   padding: 10px 0;
 }
 
-.navbar-inverse {
+.navbar-dark {
   border: 0;
 }
 
@@ -71,23 +71,23 @@ header .navbar-brand {
   font-weight: 300;
 }
 
-header .navbar-inverse .navbar-brand {
+header .navbar-dark .navbar-brand {
   color: white;
 }
 
-header .navbar-inverse .navbar-nav>li>a {
+header .navbar-dark .navbar-nav>li>a {
   color: white;
-} 
+}
 
 .maincontent {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 160%;
 }
 
 .sidebar {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 130%;
 }
 
@@ -108,29 +108,29 @@ header .navbar-inverse .navbar-nav>li>a {
   }
 }
 
-.speakerslist {
+.highlightslist {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 160%;
 }
 
-#speakerList .speakerslist-img {
+#highlightsList .highlightslist-img {
   margin-right: 20px;
 }
 
-.speakerslist-title {
+.highlightslist-title {
   font-size: 1.7em;
 }
 
-#home .speakerslist-title {
+#home .highlightslist-title {
   font-size: 1.5em;
 }
 
-#speakerDetail .speakerslist-title {
+#highlightDetail .highlightslist-title {
   font-size: 2.4em;
 }
 
-#speakerDetail .speakerslist-img {
+#highlightDetail .highlightslist-img {
   margin: 20px 0;
 }
 
